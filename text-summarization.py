@@ -92,7 +92,7 @@ def generate_summary(file_name, top_n=5):
     stop_words = stopwords.words('english')
     summarize_text = []
 
-    # 1st - Read text anc split it
+    # 1st - Read text and split it
     sentences, ref = read_paragraph(file_name)
 
     # 2nd - Generate Similary Martix across sentences
